@@ -1,6 +1,6 @@
 # Fellow Deploy Tools
 
-This repository provides a Heroku buildpack containing the following tools:
+This repository provides a Nix development environment with the following tools:
 
 - [jq](https://github.com/stedolan/jq)
 - [yq](https://github.com/mikefarah/yq)
