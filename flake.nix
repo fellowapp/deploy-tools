@@ -29,6 +29,7 @@
             sops
             krane
             bundler
+            stern
           ];
         };
       }
