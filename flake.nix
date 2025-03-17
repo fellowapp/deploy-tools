@@ -30,6 +30,7 @@
             krane
             bundler
             stern
+            yq-go
           ];
         };
       }
