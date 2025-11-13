@@ -2,11 +2,14 @@ version = 1
 
 [install]
 argocd.pkg-path = "argocd"
+awscli2.pkg-path = "awscli2"
 fluxcd.pkg-group = "fluxcd"
 fluxcd.pkg-path = "fluxcd"
 fluxcd.version = "0.35.0"
+helm-diff.pkg-path = "kubernetes-helmPlugins.helm-diff"
 jq.pkg-path = "jq"
 jsonnet-bundler.pkg-path = "jsonnet-bundler"
+just.pkg-path = "just"
 krane.pkg-path = "krane"
 kubectl.pkg-path = "kubectl"
 kubectl.version = "1.31"
@@ -17,3 +20,8 @@ sops.pkg-path = "sops"
 stern.pkg-path = "stern"
 tanka.pkg-path = "tanka"
 yq-go.pkg-path = "yq-go"
+
+[hook]
+on-activate = """
+export HELM_PLUGINS="${FLOX_ENV}"
+"""

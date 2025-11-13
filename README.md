@@ -5,9 +5,12 @@ Common deploy tools for Fellow infrastructure, provided as a Flox environment.
 ## Installed Packages
 
 - **argocd** - Declarative GitOps CD tool for Kubernetes
+- **awscli2** - Universal command-line interface for AWS services
 - **fluxcd** (v0.35.0) - Continuous delivery solution for Kubernetes
+- **helm-diff** - Helm plugin for diffing releases before applying changes
 - **jq** - Command-line JSON processor
 - **jsonnet-bundler** - Package manager for Jsonnet
+- **just** - Command runner with syntax inspired by Make
 - **krane** - Kubernetes deployment tool by Shopify
 - **kubectl** (v1.31) - Kubernetes command-line tool
 - **kubernetes-helm** - Package manager for Kubernetes (Helm)
