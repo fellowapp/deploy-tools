@@ -1,0 +1,19 @@
+version = 1
+
+[install]
+argocd.pkg-path = "argocd"
+fluxcd.pkg-group = "fluxcd"
+fluxcd.pkg-path = "fluxcd"
+fluxcd.version = "0.35.0"
+jq.pkg-path = "jq"
+jsonnet-bundler.pkg-path = "jsonnet-bundler"
+krane.pkg-path = "krane"
+kubectl.pkg-path = "kubectl"
+kubectl.version = "1.31"
+kubernetes-helm.pkg-path = "kubernetes-helm"
+pulumi-bin.pkg-path = "pulumi-bin"
+rage.pkg-path = "rage"
+sops.pkg-path = "sops"
+stern.pkg-path = "stern"
+tanka.pkg-path = "tanka"
+yq-go.pkg-path = "yq-go"
